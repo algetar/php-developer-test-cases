@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /home/tga/wsp/test_tasks/php-developer-test-cases
+cd <path to project>
 /usr/bin/docker exec app php ./public/script.php
 
 #

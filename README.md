@@ -9,7 +9,10 @@ docker-compose up -d
 docker exec -it app composer install
 ```
 ###crontab
-* * * * * /home/tga/wsp/test_tasks/php-developer-test-cases/sender.sh >> /var/log/cron.log 2>&1
+crontab -e 
+
+добавить в конце
+* * * * * <path to project>/sender.sh >> /var/log/cron.log 2>&1
 # Don't remove the empty line at the end of this file. It is required to run the cron job
 
 Вы разрабатываете сервис для рассылки уведомлений об истекающих подписках. 
