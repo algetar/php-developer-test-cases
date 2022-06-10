@@ -2,7 +2,7 @@
 ```
 git clone git@github.com:algetar/php-developer-test-cases.git
 cd php-developer-test-cases
-git checkout master --
+git checkout main --
 rm -rf docker-compose.yml .env
 cp docker-compose.yml.dist docker-compose.yml && cp .env.dist .env 
 docker-compose up -d
