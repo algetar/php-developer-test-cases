@@ -1,6 +1,6 @@
 ###Setup
 ```
-git clone git@bitbucket.org:allproject23/msg_back.git
+git clone git@github.com:algetar/php-developer-test-cases.git
 cd php-developer-test-cases
 git checkout master --
 rm -rf docker-compose.yml .env

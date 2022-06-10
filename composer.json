@@ -1,7 +1,7 @@
 {
     "name": "test/php-developer-test-cases",
     "description": "PHP Developer. Test Cases",
-    "homepage": "https://github.com/algetar/test/php-developer-test-cases",
+    "homepage": "https://github.com/algetar/php-developer-test-cases",
     "config": {
         "sort-packages": true
     },
