@@ -1,0 +1,68 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c8d5fbd6980c999a1e55380b32b74014",
+    "packages": [
+        {
+            "name": "digitalstars/database",
+            "version": "v1.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/digitalstars/DataBase.git",
+                "reference": "73d1c6ec4b33dcb8028a02c16ac616ff4a26cc26"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/digitalstars/DataBase/zipball/73d1c6ec4b33dcb8028a02c16ac616ff4a26cc26",
+                "reference": "73d1c6ec4b33dcb8028a02c16ac616ff4a26cc26",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "php": ">=5.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DigitalStars\\DataBase\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "ZeRoX",
+                    "email": "as234zx15@yandex.ru"
+                },
+                {
+                    "name": "Runnin",
+                    "email": "mr.kirilll12@mail.ru"
+                }
+            ],
+            "description": "Library for easy work with databases",
+            "support": {
+                "issues": "https://github.com/digitalstars/DataBase/issues",
+                "source": "https://github.com/digitalstars/DataBase/tree/v1.0.8"
+            },
+            "time": "2022-05-08T22:03:13+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^7.4 || ^8.0",
+        "ext-json": "*",
+        "ext-pdo": "*"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
