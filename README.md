@@ -12,7 +12,7 @@ docker exec -it app composer install
 crontab -e 
 
 добавить в конце
-* * * * * <path to project>/sender.sh >> /var/log/cron.log 2>&1
+* * * * * path to project/sender.sh >> /var/log/cron.log 2>&1
 # Don't remove the empty line at the end of this file. It is required to run the cron job
 
 Вы разрабатываете сервис для рассылки уведомлений об истекающих подписках. 
